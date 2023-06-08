@@ -1,0 +1,88 @@
+/*
+=============== 
+Navbar
+===============
+*/
+
+.header {
+    background-color: #BFBBAF;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    padding-left: 140px;
+    padding-right: 140px;
+  }
+  
+  .logo a {
+    color: #fff;
+    font-size: 35px;
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    text-decoration: none;
+  }
+  
+  .menu ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  
+  .menu li {
+    margin-left: 20px;
+  }
+  
+  .menu a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+  }
+  
+/*
+=============== 
+Homepage
+===============
+*/
+
+.text-container {
+  position: relative;
+  padding-left: 140px;
+  width: 45%; /* Set the desired width for the text container */
+  float: left;
+}
+
+.header1 {
+  text-align: left;
+  font-family: 'Lato', sans-serif;
+  font-size: 42px; /* Set the desired font size */
+  line-height: 1.5; /* Set the desired line height */
+}
+
+.text {
+  text-align: left;
+  font-family: 'Lato', sans-serif;
+  font-size: 16px; /* Set the desired font size */
+  line-height: 1.5; /* Set the desired line height */
+}
+
+.image-container {
+  padding-top: 50px;
+  padding-right: 140px;
+  width: 40%; /* Set the desired width for the image container */
+  float: right;
+}
+
+.image {
+  padding: 0;
+  width: 80%;
+  height: auto;
+}
+
+.container::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+  
